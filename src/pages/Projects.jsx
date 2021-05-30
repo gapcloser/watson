@@ -9,6 +9,7 @@ import BackImg2 from "../images/2.png";
 import BackImg3 from "../images/3.png";
 import BackImg4 from "../images/4.png";
 import BackImg5 from "../images/5.png";
+import BackImg6 from "../images/6.png";
 
 const Appeare = {
   hidden: {
@@ -93,6 +94,36 @@ const Projects = () => {
               </p>
               <a
                 href="https://playboii.netlify.app"
+                target="_blank"
+                className="mt-5"
+              >
+                <lord-icon
+                  src="https://cdn.lordicon.com/wnkegycl.json"
+                  trigger="hover"
+                  colors="primary:#ffffff,secondary:#08a88a"
+                  style={{ width: "50px", height: "50px" }}
+                ></lord-icon>
+              </a>
+            </div>
+          </div>
+          <div className="flex flex-col items-center justify-between lg:flex-row mb-24 z-10">
+            <a
+              href="https://notts.netlify.app/"
+              target="_blank"
+              className="w-full lg:w-1/2 shadow-lg block mb-2"
+            >
+              <img src={BackImg6} alt="" />
+            </a>
+            <div className="flex flex-col px-1 sm:px-2 lg:px-20 w-full lg:w-1/2">
+              <h1 className="font-semibold font-amatic text-3xl sm:text-4xl">
+                Notes App
+              </h1>
+              <p className="font-josefin font-light text-lg sm:text-xl">
+                This is a note application where you can set the categories and
+                put some notes inside.
+              </p>
+              <a
+                href="https://notts.netlify.app/"
                 target="_blank"
                 className="mt-5"
               >
